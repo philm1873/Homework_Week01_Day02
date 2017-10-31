@@ -87,3 +87,16 @@ def number_to_short_month_name(number)
     return "Dec"
   end
 end
+
+def volume_of_cube(length)
+  return length ** 3
+end
+
+def volume_of_sphere(radius)
+  answer = 4.to_f / 3.to_f * Math::PI * (radius.to_f ** 3.to_f)
+  return answer.round(2)
+end
+
+def fahrenheit_to_celsius(temperature)
+  return (temperature - 32) * 5 / 9
+end
